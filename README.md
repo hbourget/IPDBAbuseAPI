@@ -1,11 +1,16 @@
 # IPDBAbuse Checker
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)
+![Python Version](https://img.shields.io/badge/python-3.7%2B-purple.svg)
 
 ## Overview
 
 This python tool allows you to verify a list of IP addresses against the AbuseIPDB API. It checks each IP for reported abuse incidents, provides a detailed report, and saves the results in both a CSV file and a formatted table in the console.
+
+## Prerequisites
+
+- Python 3.7 or higher
+- A IPDBAbuse API API key (register on [abuseipdb.com](https://www.abuseipdb.com/))
 
 ## Installation
 
